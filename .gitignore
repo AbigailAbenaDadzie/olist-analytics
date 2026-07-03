@@ -1,0 +1,26 @@
+# Data (too large / licensed — download separately, see README)
+olist/
+*.csv
+
+# DuckDB database files
+*.duckdb
+*.duckdb.wal
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated artifacts (optional — remove lines below if you want to commit these)
+dashboard.png
+slides/*.pdf
+slides/slide-*.jpg
