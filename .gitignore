@@ -1,6 +1,5 @@
 # Data (too large / licensed — download separately, see README)
-olist/
-*.csv
+
 
 # DuckDB database files
 *.duckdb
