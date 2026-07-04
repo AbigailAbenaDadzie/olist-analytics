@@ -50,7 +50,8 @@ SLATE = "#5C7080"
 @st.cache_resource
 def get_connection():
     con = duckdb.connect(":memory:")
-    csv_files = glob.glob("olist/*.csv")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    csv_files = glob.glob(os.path.join(BASE_DIR, "olist", "*.csv"))
     if not csv_files:
         return None
     for f in csv_files:
