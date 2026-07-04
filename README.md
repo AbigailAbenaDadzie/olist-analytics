@@ -10,7 +10,7 @@ and a predictive model.
 
 | Path | What it is |
 |---|---|
-| `01_ecommerce_olist_SOLUTION.ipynb` | Full analysis notebook: load → SQL marts → charts → model → recommendation |
+| `Olist_E-commerce_Analytsis.ipynb` | Full analysis notebook: load → SQL marts → charts → model → recommendation |
 | `sql/` | Standalone `.sql` files for each mart (monthly revenue, top sellers, customer tiers) |
 | `dashboard/app.py` | Interactive Streamlit app version of the analysis |
 | `slides/olist_analytics.pptx` | Presentation deck summarizing findings |
@@ -43,7 +43,7 @@ and a predictive model.
 ## Run the notebook
 
 ```bash
-jupyter notebook 01_ecommerce_olist_SOLUTION.ipynb
+jupyter notebook Olist_E-commerce_Analysis.ipynb
 ```
 Kernel ▸ Restart & Run All.
 
