@@ -4,6 +4,8 @@ Analytics engineering capstone on Olist's Brazilian marketplace dataset — from
 raw relational data to a growth recommendation, with an interactive dashboard
 and a predictive model.
 
+**🔗 Live app:** [olist-analytics-8gwgsfkkw2kwnsckkbfgec.streamlit.app](https://olist-analytics-8gwgsfkkw2kwnsckkbfgec.streamlit.app/)
+
 ## What's here
 
 | Path | What it is |
